@@ -1,0 +1,35 @@
+.card-container{
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.card{
+    display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+    justify-content: space-around;
+    border: 3px rgb(255, 47, 220) solid;
+    width: 500px; 
+    height: 500px;
+   
+}
+.card img{
+    width: 100%;
+    border: 3px greenyellow solid;
+    
+}
+
+.card p{
+    
+    text-align: center;
+    padding: 5px;
+}
+.card h2{
+    text-align: center;
+    padding: 5px;
+    color: blue;
+    font-size: 1rem;
+}
